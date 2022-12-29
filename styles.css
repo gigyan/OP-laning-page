@@ -27,7 +27,7 @@ body{
 
 .link-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 300px;
     align-items: center;
 
@@ -36,7 +36,7 @@ body{
 
 a{
     color: white;
-    font-size: 20px;
+    font-size: 35px;
     text-decoration: none;
 }
 
@@ -44,10 +44,106 @@ a{
     display: flex;
     margin-top: 50px;
     color: white;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+#boldText{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#section1-paragraph{
+    font-size: 25px;
+}
+
+button{ 
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #87BBA2;
+    color: black;
+}
+
+#section1-cat{
+    object-fit: contain;
+    width: 600px;
+    height: 300px;
+    padding: 20px;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: #C9E4CA; 
+
+    
+}
+
+#section2-heading{
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+#section2-images{
+    display: flex;
+    margin-top: 40px;
+    gap: 30px;
+   
+}
+
+.catImageContainer{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-left: 20px;
+}
+
+.CatPic{
+    object-fit: contain;
+    width: 300px;
+    height: 300px;
+}
+
+.catImageContainer text{
+    text-align: center;
+    font-size: 20px;
+}
+
+.section3{ background-color: #87BBA2;}
+
+.section3 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 465px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.section3 p{
+    text-align: center;
+    font-size: 30px;
+} 
+
+.section3 text{
+    align-self: flex-end;
+    margin-right: 40px;
+    font-size: 25px;
 }
 
 
 .footer{
-    background-color: #4381C1; 
-    height: 75px;
+    display: flex;
+    background-color: #202C39; 
+    color: white;
+    font-size: 20px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+
 }
